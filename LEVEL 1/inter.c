@@ -18,8 +18,8 @@ int	main(int argc, char **argv)
 		while (argv[1][i])
 		{
 			is_double = 0;
-			k = 0;
-			while (k < i)
+			k = 0; //k sempre volta a 0 pra eu ver se a letra ja esteve em algum lugar da string 1
+			while (k < i) //faco um ciclo em argv1 pra ver se há letras repetidas
 			{
 				if (argv[1][k] == argv[1][i])
 				{

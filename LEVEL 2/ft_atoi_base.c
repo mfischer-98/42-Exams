@@ -40,10 +40,10 @@ int	ft_atoi_base(const char *str, int str_base) //dou o numero em str e a base, 
 	return (res * neg);
 }
 
-/*int	main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
 	if (argc == 2)
 	{
-		printf("%d\n", ft_atoi_base(argv[1], 10));
+		printf("%d\n", ft_atoi_base(argv[1], 16));
 	}
-} */
+}

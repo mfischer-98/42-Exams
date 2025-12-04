@@ -1,5 +1,7 @@
 {
 	"files.associations": {
-		"cstdlib": "c"
+		".fantomasignore": "ignore",
+		"cstdlib": "c",
+		"unistd.h": "c"
 	}
 }
